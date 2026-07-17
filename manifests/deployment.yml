@@ -18,7 +18,8 @@ spec:
 
     spec:
       containers:
-      - name: nginx
-        image: nginx:1.29
+      - name: flask
+        image: saurabhh45/flask-demo:v1.0.0
+        imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 80
