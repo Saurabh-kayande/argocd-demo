@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
       - name: flask
-        image: saurabhh45/flask-demo:v2.0.0
+        image: saurabhh45/flask-demo:v3.0.0
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 5000
